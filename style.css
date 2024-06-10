@@ -6,6 +6,11 @@
   padding: 0;
 }
 
+.negrito{
+  color: #FFC94A;
+  font-weight: bold;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -53,7 +58,7 @@ header {
 }
 
 .button-header {
-  background-color: #dd9f25;
+  background-color: #FFC94A;
   border-radius: 20.5px;
   width: 162px;
   height: 41px;
@@ -64,7 +69,7 @@ header {
 }
 
 .button-header:hover {
-  background-color: #fece43;
+  background-color: #FDDE55;
   border-radius: 3px;
   transition: 1s;
 }
@@ -73,9 +78,20 @@ header {
 #banner {
   width: 100%;
   height: 650px;
-  background-image: url("./Img/banner\ -ODS17.png");
+  background-image: url("./Images/banner -ODS17.png");
   background-size: cover;
-  background-position: 50% 80%;
+  background-position: 15% 85%;
+}
+
+#banner3{
+    width: 100%;
+    height: 300px;
+
+  /*adiciona uma imagem interna ou externa*/
+    background-image: url("./Images/banner-d3.svg");
+    background-size: contain;/*deixa a imagem preencher todo o     container sem cortá-la*/
+    background-position: 50% 80%;
+    background-repeat: no-repeat;
 }
 
 #logo {
@@ -93,7 +109,6 @@ main {
 .logo-image {
   width: 510px;
   height: 510px;
-  background-image: url(./Img/ODS17.jpg);
   margin-left: 125px;
   display: inline-block;
   border-radius: 15px;
@@ -130,7 +145,7 @@ p {
 }
 
 .button-main {
-  background-color: #febd14;
+  background-color: #FFC94A;
   border-radius: 25px;
   border: none;
   width: 250px;
@@ -145,8 +160,8 @@ p {
   text-decoration: none;
 }
 
+  background-color: #FDDE55;
 .button-main:hover {
-  background-color: #fece43;
   border-radius: 2px;
   filter: drop-shadow(0 4px 4px #636161e0);
 }
@@ -189,7 +204,8 @@ p {
 
 /* Rodapé */
 footer {
-  background-color: #144c6c;
+  background: rgba(20,76,108,1);
+  background: linear-gradient(90deg, rgba(20,76,108,1) 3%, rgba(80,133,159,1) 46%, rgba(20,76,108,1) 94%);
   height: 300px;
   bottom: 0;
   width: 100%;
@@ -223,6 +239,7 @@ footer {
 
 .footer-credito a:hover {
   scale: 1.2;
+  color: #FFC94A;
 }
 
 /* Media queries para responsividade */
@@ -377,12 +394,13 @@ footer {
   }
 
   #banner {
-    background-image: url(./Img/banner-resp.png);
+    background-image: url(./Images/ODS17.jpg);
     border: 5px solid white;
     padding: 20px;
     height: 50vh;
     width: auto;
     background-size: cover;
+    border-radius: 15px;
   }
   
   /*pagina do video*/
