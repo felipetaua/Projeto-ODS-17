@@ -3,6 +3,8 @@
 
 Este projeto destaca a importância dos **Objetivos de Desenvolvimento Sustentável (ODS)**, com foco no **Objetivo 17: Parcerias e Meios de Implementação**.  
 
+[![Live Server](https://img.shields.io/badge/Live_Server-Click_Here-brightgreen?style=for-the-badge)](https://felipetaua.github.io/Projeto-ODS-17/)
+
 ## 🎯 **Foco no Objetivo 17**  
 O trabalho explora como fortalecer parcerias globais pode impulsionar o desenvolvimento sustentável, promovendo colaboração entre setores e países.  
 
